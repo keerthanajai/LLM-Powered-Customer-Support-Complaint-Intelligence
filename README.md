@@ -1,4 +1,4 @@
-# Ticket Pro 🎫
+# Ticket Pro 
 
 An end-to-end ML pipeline for automated customer support ticket classification using both a TF-IDF/LogReg baseline and an LLM-powered RAG (Retrieval-Augmented Generation) approach.
 
