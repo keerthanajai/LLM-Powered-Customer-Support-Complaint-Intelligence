@@ -1,0 +1,36 @@
+{
+  "complaint_mapping": {
+    "product defect": "Product Defect",
+    "product defect ": "Product Defect",
+    "product-defect": "Product Defect",
+    "productdefect": "Product Defect",
+    "billing/payment": "Billing",
+    "billing payment": "Billing",
+    "billing": "Billing",
+    "refund request": "Refund",
+    "refund": "Refund",
+    "login/authentication": "Login",
+    "login": "Login",
+    "authentication": "Login",
+    "customer support": "Customer Service",
+    "customer service": "Customer Service",
+    "customer support ": "Customer Service",
+    "technical issue": "Technical Issue",
+    "technical": "Technical Issue",
+    "other": "Other"
+  },
+  "severity_mapping": {
+    "low": "Low",
+    "medium": "Medium",
+    "med": "Medium",
+    "high": "High",
+    "critical": "High"
+  },
+  "sentiment_mapping": {
+    "positive": "Positive",
+    "neutral": "Neutral",
+    "negative": "Negative",
+    "pos": "Positive",
+    "neg": "Negative"
+  }
+}

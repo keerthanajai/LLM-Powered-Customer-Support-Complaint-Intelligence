@@ -1,0 +1,6 @@
+{
+  "n_input_tickets": 100,
+  "n_processed": 100,
+  "out_parquet": "results/llm_full_sample/tickets_enriched.parquet",
+  "out_csv": "results/llm_full_sample/tickets_enriched.csv"
+}

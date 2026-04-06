@@ -1,0 +1,17 @@
+{
+  "accuracy": 0.12,
+  "macro_f1": 0.06701383716029434,
+  "n_examples": 250,
+  "target": "label_complaint_type",
+  "classes": [
+    "Account/Subscription",
+    "Billing",
+    "Customer Sdervice",
+    "Customer Service",
+    "Login",
+    "Other",
+    "Payment/Billing",
+    "Performance/Latency",
+    "Product Defect"
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "complaint": {
+    "report": {
+      "Account/Subscription": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Billing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 5.0
+      },
+      "Customer Sdervice": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Customer Service": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 10.0
+      },
+      "Login": {
+        "precision": 0.07692307692307693,
+        "recall": 0.038461538461538464,
+        "f1-score": 0.05128205128205128,
+        "support": 26.0
+      },
+      "Other": {
+        "precision": 0.03375527426160337,
+        "recall": 1.0,
+        "f1-score": 0.0653061224489796,
+        "support": 8.0
+      },
+      "Payment/Billing": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 1.0
+      },
+      "Performance/Latency": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 2.0
+      },
+      "Product Defect": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1-score": 0.0,
+        "support": 195.0
+      },
+      "accuracy": 0.036,
+      "macro avg": {
+        "precision": 0.01229759457607559,
+        "recall": 0.11538461538461539,
+        "f1-score": 0.012954241525670098,
+        "support": 250.0
+      },
+      "weighted avg": {
+        "precision": 0.009080168776371307,
+        "recall": 0.036,
+        "f1-score": 0.00742312925170068,
+        "support": 250.0
+      }
+    },
+    "accuracy": 0.036,
+    "macro_f1": 0.012954241525670098
+  },
+  "severity": {
+    "report": {
+      "High": {
+        "precision": 0.3333333333333333,
+        "recall": 0.011764705882352941,
+        "f1-score": 0.022727272727272728,
+        "support": 85.0
+      },
+      "Low": {
+        "precision": 0.034334763948497854,
+        "recall": 1.0,
+        "f1-score": 0.06639004149377593,
+        "support": 8.0
+      },
+      "Medium": {
+        "precision": 0.8571428571428571,
+        "recall": 0.07643312101910828,
+        "f1-score": 0.14035087719298245,
+        "support": 157.0
+      },
+      "accuracy": 0.084,
+      "macro avg": {
+        "precision": 0.4082703181415628,
+        "recall": 0.3627326089671537,
+        "f1-score": 0.07648939713801037,
+        "support": 250.0
+      },
+      "weighted avg": {
+        "precision": 0.6527177600653995,
+        "recall": 0.084,
+        "f1-score": 0.09799210493226652,
+        "support": 250.0
+      }
+    },
+    "accuracy": 0.084,
+    "macro_f1": 0.07648939713801037
+  },
+  "sentiment": {
+    "report": {
+      "Negative": {
+        "precision": 1.0,
+        "recall": 0.012396694214876033,
+        "f1-score": 0.024489795918367346,
+        "support": 242.0
+      },
+      "Neutral": {
+        "precision": 0.032388663967611336,
+        "recall": 1.0,
+        "f1-score": 0.06274509803921569,
+        "support": 8.0
+      },
+      "accuracy": 0.044,
+      "macro avg": {
+        "precision": 0.5161943319838057,
+        "recall": 0.506198347107438,
+        "f1-score": 0.04361744697879152,
+        "support": 250.0
+      },
+      "weighted avg": {
+        "precision": 0.9690364372469636,
+        "recall": 0.044,
+        "f1-score": 0.025713965586234493,
+        "support": 250.0
+      }
+    },
+    "accuracy": 0.044,
+    "macro_f1": 0.04361744697879152
+  }
+}

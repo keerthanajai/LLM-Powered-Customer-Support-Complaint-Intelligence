@@ -1,0 +1,15 @@
+# Core data
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+
+# ML / sklearn
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# OpenAI (LLM + embeddings)
+openai>=1.10.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.66.0

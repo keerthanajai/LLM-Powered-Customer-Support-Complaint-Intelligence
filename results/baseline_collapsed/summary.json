@@ -1,0 +1,12 @@
+{
+  "accuracy": 0.16,
+  "macro_f1": 0.09998965802537232,
+  "n_examples": 250,
+  "target": "label_complaint_collapsed",
+  "classes": [
+    "Customer Service",
+    "Login",
+    "Other",
+    "Product Defect"
+  ]
+}

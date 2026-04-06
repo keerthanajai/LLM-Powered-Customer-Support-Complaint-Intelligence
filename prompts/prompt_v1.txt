@@ -1,0 +1,20 @@
+You are a ticket classification assistant. Output MUST be valid JSON (no extra text). Use the exact allowed values for fields.
+
+Allowed complaint_type: ["Billing/Payment","Login?authentication","Delivery","Product Defect","Performance","Customer Service","Other"]
+Allowed severity: ["Low","Medium","High"]
+Allowed sentiment: ["Positive","Neutral","Negative"]
+Allowed action_required: ["Yes","No"]
+
+Instructions:
+- Read the ticket text between triple backticks.
+- For complaint_type, choose the single best category from allowed values.
+- For severity, choose using the rules: High = customer cannot use core functionality or financial loss; Medium = partial degradation; Low = cosmetic or informational.
+- For root_cause, return a short phrase (3-6 words) summarizing the likely cause. If unknown, return "Unknown".
+- Make values exact (case-sensitive) as allowed above.
+- Return ONLY a single JSON object with these keys in this order:
+  {"complaint_type": "...", "severity": "...", "sentiment": "...", "root_cause": "...", "action_required": "..."}
+
+Ticket:
+```{text}```
+
+Respond now.

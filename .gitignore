@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+*.env
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Large data files — exclude from git, use Git LFS or cloud storage
+data/customer_support_tickets.csv
+data/clean/*.parquet
+data/embeddings/embeddings.npy
+data/embeddings/meta.csv
+data/embeddings/clean_texts.txt
+data/labels/human_labeled_clean.csv
+data/labels/human_labeled_clean_collapsed.csv
+
+# Results / model artifacts
+results/**/*.parquet
+results/**/*.joblib
+results/**/partial/
+
+# Keep summary JSONs and classification reports (small, useful for tracking)
+!results/**/summary.json
+!results/**/classification_report.csv
+!results/**/metrics_summary.json
+!results/**/metrics_collapsed.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
